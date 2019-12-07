@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Country</string>
+    <string name="user">User Name : </string>
+    <string name="email"> E-mail: </string>
+    <string name="mobile">Mobile: </string>
+    <string name="pass">Password : </string>
+
+    <string name="details">
+        A coral island located in the Bangladesh of north eastern part of the Bay of the South of Saint Martin island.
+    It is located about 9 kilometers south of Teknag of Coxs Bazar District and 8 km west of Myanmar coast at the mouth of the naf river.
+    </string>
+
+    </resources>

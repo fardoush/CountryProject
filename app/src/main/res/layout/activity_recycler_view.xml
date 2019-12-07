@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RecyclerView">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        android:background="#C20DE0">
+
+        <ImageButton
+            android:id="@+id/backbtnId"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00ffffff"
+            android:src="@drawable/ic_arrow_back"
+            android:clickable="true"/>
+
+
+
+        <Switch
+            android:id="@+id/switchId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/CircleImg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bangla">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+
+        </androidx.appcompat.widget.SearchView>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

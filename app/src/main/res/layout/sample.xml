@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/imageviewId"
+        android:layout_width="80dp"
+        android:layout_height="95dp"
+        android:src="@drawable/bangla"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textviewId"
+            android:layout_margin="10dp"
+            android:text="Sakib"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+            android:id="@+id/texDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click Me "
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/TextAppearance.AppCompat.Small"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <!--//</LinearLayout>-->
